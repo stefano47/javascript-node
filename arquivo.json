@@ -1,8 +1,1 @@
-{
-    "db": {
-        "host": "localhost",
-        "port": "5432",
-        "user": "usuario",
-        "pass": "123456"
-    }
-}
+{"nome":"Celular","preco":1249.99,"desconto":0.15}
