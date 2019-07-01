@@ -6,7 +6,7 @@ const tarefa1 = schedule.scheduleJob('*/5 * 14 * * 1', function() {
 
 setTimeout(function() {
     tarefa1.cancel()
-    console.log('Cancelando Tarefa 1!')
+    console.log('Cancelando Tarefa 1!!!')
 }, 20000)
 
 const regra = new schedule.RecurrenceRule()
@@ -15,5 +15,5 @@ regra.hour = 14
 regra.second = 30
 
 const tarefa2 = schedule.scheduleJob(regra, function() {
-    console.log('Executando Tarefa 2!', new Date().getSeconds())
+    console.log('Executando Tarefa 2!!!', new Date().getSeconds())
 })
